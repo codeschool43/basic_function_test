@@ -1,5 +1,5 @@
 try:
-    from def06 import main 
+    from def07 import main 
 except ImportError:
     assert False, "Not found"
     
