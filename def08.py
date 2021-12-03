@@ -8,6 +8,7 @@ def main():
     #Create variable to store Pi.
     pi = 3.1415926535897931159979634685441852
     #Return Pi to n number of decimal places.
-    return round(pi, n)
+    answer = int(pi*10000)/10000
+    return answer
 
 print(main())
